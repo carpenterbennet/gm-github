@@ -1,5 +1,5 @@
 We will be getting data by year, as it is completed by our
-	data provider.
+	data provider. We expect changes over the next three months. 
 
 Read data into R
 Calculate GDP from population and per capita GDP
