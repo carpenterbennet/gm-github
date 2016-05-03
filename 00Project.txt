@@ -1,0 +1,7 @@
+We will be getting data by year, as it is completed by our
+	data provider.
+
+Read data into R
+Calculate GDP from population and per capita GDP
+Save the variables country, year, lifeExp, and gdp to a new, cumulative
+	.csv file for the economists
