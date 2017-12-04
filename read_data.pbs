@@ -1,0 +1,16 @@
+#!/bin/bash
+
+#####  This should be used to run one year's data on the cluster
+#PBS -l nodes=1:ppn=1,mem=4gb,walltime=4:00:00
+
+#  Whoever runs this, change this to your own e-mail _before_ you submit!
+#PBS -M grundoon@umich.edu
+#PBS -m ea
+
+#PBS -N gm_read_data
+#PBS -A gdp_flux
+#PBS -q flux
+#PBS -j oe
+#PBS -V
+
+R CMD BATCH -q --no-restore --no-save read_gm_data.R
